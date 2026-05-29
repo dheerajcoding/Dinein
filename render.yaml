@@ -22,15 +22,8 @@ services:
   # ── Frontend: Static Site (instant load, no cold start) ───────────────────
   - type: static
     name: dinein-frontend
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: build
-    pullRequestPreviewsEnabled: false
-    envVars:
-      - key: REACT_APP_API_URL
-        value: https://dinein-api.onrender.com
-      - key: NODE_NO_WARNINGS
-        value: "1"
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
     routes:
       - type: rewrite
         source: /*
