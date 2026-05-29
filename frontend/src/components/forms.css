@@ -1,0 +1,71 @@
+/* ── Auth Pages (Login / Register) ── */
+.auth-page {
+    min-height: 100vh;
+    background: linear-gradient(160deg, #1a0a07 0%, #4e1a14 50%, #7f2a1e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.auth-card {
+    background: #fff8f0;
+    border-radius: 24px;
+    padding: 40px 36px;
+    width: min(92vw, 440px);
+    box-shadow: 0 24px 64px rgba(0,0,0,0.4);
+}
+
+.auth-brand {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.auth-brand-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.auth-title {
+    margin: 0 0 4px;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #b71c1c;
+}
+
+.auth-subtitle {
+    margin: 0;
+    color: #9e7d75;
+    font-size: 0.85rem;
+}
+
+.auth-link {
+    color: #d32f2f;
+    font-weight: 600;
+    font-size: 0.875rem;
+    display: block;
+    margin: 12px 0;
+}
+
+.auth-submit-btn {
+    margin-top: 8px !important;
+    background: linear-gradient(90deg, #b71c1c, #e53935) !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    padding: 12px 0 !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 16px rgba(183,28,28,0.35) !important;
+    width: 100% !important;
+}
+
+.auth-submit-btn:hover {
+    box-shadow: 0 8px 24px rgba(183,28,28,0.5) !important;
+}
+
+.box-t1 {
+    border: 10px black;
+    box-shadow: 0 1px 6px rgba(58, 49, 49, 0.27), 0 0 40px rgba(0,0,0,.06) inset;
+}

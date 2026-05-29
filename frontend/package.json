@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/icons": "^4.5.1",
+    "material-table": "^1.54.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-qr-reader": "^2.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "cross-env NODE_NO_WARNINGS=1 react-scripts start",
+    "build": "cross-env NODE_NO_WARNINGS=1 react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
